@@ -12,10 +12,10 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/pion/mediadevices/pkg/driver"
-	"github.com/pion/mediadevices/pkg/frame"
-	"github.com/pion/mediadevices/pkg/io/video"
-	"github.com/pion/mediadevices/pkg/prop"
+	"github.com/jKiler/mediadevices/pkg/driver"
+	"github.com/jKiler/mediadevices/pkg/frame"
+	"github.com/jKiler/mediadevices/pkg/io/video"
+	"github.com/jKiler/mediadevices/pkg/prop"
 )
 
 var (

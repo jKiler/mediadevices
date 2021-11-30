@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pion/mediadevices/pkg/prop"
+	"github.com/jKiler/mediadevices/pkg/prop"
 )
 
 func BenchmarkDetectChanges(b *testing.B) {

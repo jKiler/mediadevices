@@ -3,9 +3,9 @@ package opus
 import (
 	"testing"
 
-	"github.com/pion/mediadevices/pkg/codec/internal/codectest"
-	"github.com/pion/mediadevices/pkg/prop"
-	"github.com/pion/mediadevices/pkg/wave"
+	"github.com/jKiler/mediadevices/pkg/codec/internal/codectest"
+	"github.com/jKiler/mediadevices/pkg/prop"
+	"github.com/jKiler/mediadevices/pkg/wave"
 )
 
 func TestEncoder(t *testing.T) {

@@ -4,11 +4,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/pion/mediadevices/pkg/codec"
-	"github.com/pion/mediadevices/pkg/io/audio"
-	"github.com/pion/mediadevices/pkg/prop"
-	"github.com/pion/mediadevices/pkg/wave"
-	"github.com/pion/mediadevices/pkg/wave/mixer"
+	"github.com/jKiler/mediadevices/pkg/codec"
+	"github.com/jKiler/mediadevices/pkg/io/audio"
+	"github.com/jKiler/mediadevices/pkg/prop"
+	"github.com/jKiler/mediadevices/pkg/wave"
+	"github.com/jKiler/mediadevices/pkg/wave/mixer"
 )
 
 /*

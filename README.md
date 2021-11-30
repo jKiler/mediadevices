@@ -30,14 +30,14 @@ import (
 	"image/jpeg"
 	"os"
 
-	"github.com/pion/mediadevices"
-	"github.com/pion/mediadevices/pkg/prop"
+	"github.com/jKiler/mediadevices"
+	"github.com/jKiler/mediadevices/pkg/prop"
 
 	// This is required to register camera adapter
-	_ "github.com/pion/mediadevices/pkg/driver/camera" 
+	_ "github.com/jKiler/mediadevices/pkg/driver/camera" 
 	// Note: If you don't have a camera or your adapters are not supported,
 	//       you can always swap your adapters with our dummy adapters below.
-	// _ "github.com/pion/mediadevices/pkg/driver/videotest"
+	// _ "github.com/jKiler/mediadevices/pkg/driver/videotest"
 )
 
 func main() {
@@ -92,7 +92,7 @@ By default, there's no media input registered. This decision was made to allow y
 ```go
 import (
 	...
-	_ "github.com/pion/mediadevices/pkg/driver/camera"
+	_ "github.com/jKiler/mediadevices/pkg/driver/camera"
 )
 ```
 
@@ -104,9 +104,9 @@ In order to encode your video/audio, `mediadevices` needs to know what codecs th
 package main
 
 import (
-	"github.com/pion/mediadevices"
-	"github.com/pion/mediadevices/pkg/codec/x264"      // This is required to use H264 video encoder
-	_ "github.com/pion/mediadevices/pkg/driver/camera" // This is required to register camera adapter
+	"github.com/jKiler/mediadevices"
+	"github.com/jKiler/mediadevices/pkg/codec/x264"      // This is required to use H264 video encoder
+	_ "github.com/jKiler/mediadevices/pkg/driver/camera" // This is required to register camera adapter
 )
 
 func main() {

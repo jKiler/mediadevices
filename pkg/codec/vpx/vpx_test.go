@@ -6,11 +6,11 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/pion/mediadevices/pkg/codec"
-	"github.com/pion/mediadevices/pkg/codec/internal/codectest"
-	"github.com/pion/mediadevices/pkg/frame"
-	"github.com/pion/mediadevices/pkg/io/video"
-	"github.com/pion/mediadevices/pkg/prop"
+	"github.com/jKiler/mediadevices/pkg/codec"
+	"github.com/jKiler/mediadevices/pkg/codec/internal/codectest"
+	"github.com/jKiler/mediadevices/pkg/frame"
+	"github.com/jKiler/mediadevices/pkg/io/video"
+	"github.com/jKiler/mediadevices/pkg/prop"
 )
 
 func TestEncoder(t *testing.T) {

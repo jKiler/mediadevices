@@ -7,10 +7,10 @@ import (
 	"time"
 
 	pigo "github.com/esimov/pigo/core"
-	"github.com/pion/mediadevices"
-	"github.com/pion/mediadevices/pkg/frame"
-	_ "github.com/pion/mediadevices/pkg/driver/camera" // This is required to register camera adapter
-	"github.com/pion/mediadevices/pkg/prop"
+	"github.com/jKiler/mediadevices"
+	"github.com/jKiler/mediadevices/pkg/frame"
+	_ "github.com/jKiler/mediadevices/pkg/driver/camera" // This is required to register camera adapter
+	"github.com/jKiler/mediadevices/pkg/prop"
 )
 
 const (
